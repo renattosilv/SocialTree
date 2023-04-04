@@ -1,9 +1,9 @@
 import styles from './Styles.module.css'
 
-export default function Layout({ children }: any) {
+export default function Layout({ children, font }: any) {
   return (
     <>
-      <main className={styles.main}>
+      <main className={[styles.main, font].join(" ")}>
         {children}
       </main>
     </>

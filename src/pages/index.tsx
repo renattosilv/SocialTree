@@ -1,17 +1,15 @@
-import Head from 'next/head' 
+import HeadHomePage from '@/components/headHomePage'
+import { DefaultFont } from '@/components/defaultFont'
+import Layout from '@/components/layout'
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>SocialTree</title>
-        <meta name="description" content="SocialTree" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div>
-        SocialTree
-      </div>
+      <HeadHomePage />
+      <Layout font={DefaultFont.className}>
+        <div>Controles</div>
+        <div>Main App</div>
+      </Layout>
     </>
   )
 }

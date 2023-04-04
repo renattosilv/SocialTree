@@ -1,8 +1,10 @@
-export default function Facebook({ children }: any) {
+import SocialTreeIcon from "../SocialTreeIcon";
+
+export default function Facebook({ ico }: SocialTreeIcon) {
   return (
     <>
       <main>
-        {children}
+        
       </main>
     </>
   )

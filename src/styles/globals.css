@@ -1,5 +1,6 @@
 :root {
   --color-bg: #ffffff;
+  --color-purple: #BB99DD;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@ body {
 
 body {
   background: var(--color-bg);
+  color: var(--color-purple);
 }
 
 a {
